@@ -3,6 +3,7 @@ import { Hero } from './components/hero.js';
 import { Projects, initProjects } from './components/projects.js';
 import { Services, initServices} from './components/services.js'; 
 import { Philosophy } from './components/philosophy.js';
+import { Testimonials } from './components/testimonials.js';
 import { Contact, initContact} from './components/contact.js';
 import { Footer } from './components/footer.js';
 import { LeavesAnimation, initLeavesAnimation } from './components/leavesAnimation.js';
@@ -27,6 +28,7 @@ async function render() {
             ${Services()}
             ${Projects()}
             ${Philosophy()}
+            ${Testimonials()}
             ${Contact()}
         </main>
         ${Footer()}
