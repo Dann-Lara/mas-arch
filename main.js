@@ -5,7 +5,7 @@ import { Services, initServices} from './components/services.js';
 import { Philosophy } from './components/philosophy.js';
 import { Contact, initContact} from './components/contact.js';
 import { Footer } from './components/footer.js';
-import { LeavesAnimation, initLeavesAnimation } from './components/LeavesAnimation.js';
+import { LeavesAnimation, initLeavesAnimation } from './components/leavesAnimation.js';
 import { initI18n } from './utils/i18n.js';
 
 if ('scrollRestoration' in history) {
