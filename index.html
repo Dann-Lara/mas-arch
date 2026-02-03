@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arquitectura Avándaro | Studio</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        'valle-bg': '#DCE2D9', 
+                        'valle-stone': '#D6D3D1',
+                        'valle-forest': '#2D3A3A',
+                        'valle-clay': '#A5A58D'
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="bg-valle-bg dark:bg-[#1A1C1E] text-valle-forest dark:text-gray-200 transition-colors duration-700">
+    <div id="app"></div>
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
